@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    background-image: url('../img/header.jpeg');
+    background-size: cover;
+    background-position: center;  
+    height: 50vh; 
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0 15%;
+}
+ul li {
+   margin: 15px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+ 
+  color: gray;
+}
+.sheader{
+   padding: 45px;
+}
+.sheader h5{
+    font-size: 3.2em;
+   margin-bottom: 15px;
+}
+.sheader p{
+  margin-bottom: 15px;
+}
+.sheader span{
+ color: orange;
+}
+.btn{
+  padding: 10px;
+}
+.btn-1{
+ background-color:orange;
+}
+.btn-1:hover{
+    background-color: transparent;
+}
+.btn-2{
+ background-color: maroon;
+}
+.btn-2:hover{
+    background-color: transparent;
+}
+
+/* Partie de la section */ 
+
+section{
+   padding: 25px;
+}
+section h3{
+    color: orange;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sheader_picture{
+  display: flex;
+  width: 100%;
+}
+.cardd{
+    margin-right: 15px;
+}
+.sheader_picture h6{
+    color: orange ;
+    font-size: 15px;
+}
+.sheader_picture span{
+    color: orange ;  
+}
+
+
+/* sous-section */
+
+.sous-section{
+  
+    display: flex;
+    height: 50vh;
+}
+.card-gauche{
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+
+.imagedecorps{
+  
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+}
+.first-para{
+    padding-top: 15px;
+    word-spacing: .2em;
+    padding-bottom: 45px;
+}
+.dateofpara{
+    padding-bottom: 45px;
+    color: chocolate;
+}
+.end-para{
+    color: gray;
+}
+
+.end-section{
+    padding: 20px;
+    width: 100%;
+   
+   
+}
+.card-end{
+    display: flex;
+}
+.carte{
+    width: 100%;
+}
+/* la dernière partie footer */
+
+footer{
+    background-color: black;
+    color: white;
+   
+  
+}
+.footerr{
+    display: flex;
+}
+footer h5{
+    color: orange;
+}
+.foot{
+    margin: 15px;
+    width: 100%;
+}
+.p-end-footer{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+
+/* responsivité du site */
+
+@media (max-width: 815px) {
+    /* styles à appliquer pour les écrans d'une largeur inférieure à 815px */
+    .sheader_picture{
+       display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .sheader_picture img{
+        width: 100%;
+    }
+  }
+@media (max-width: 780px) {
+    /* styles à appliquer pour les écrans d'une largeur inférieure à 780px */
+  .sous-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-gauche{
+    width: 100%;
+  }
+  .end-section{
+    margin-top: 80px;
+  }
+  .card-end{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-end img{
+    width: 100%;
+  }
+  }
+  
