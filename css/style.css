@@ -189,4 +189,16 @@ footer h5{
     width: 100%;
   }
   }
+@media (max-width: 951px) {
+    /* styles à appliquer pour les écrans d'une largeur inférieure à 951px */
+  .menu{
+    width: 100%;
+  }
+  .img-headerr{
+    display: none;
+  }
+  .p-menu-header{
+    display: none;
+  }
+  }
   
